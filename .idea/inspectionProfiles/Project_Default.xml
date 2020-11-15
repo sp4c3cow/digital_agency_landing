@@ -1,0 +1,43 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="4">
+            <item index="0" class="java.lang.String" itemvalue="aioredis" />
+            <item index="1" class="java.lang.String" itemvalue="aiogram" />
+            <item index="2" class="java.lang.String" itemvalue="Django" />
+            <item index="3" class="java.lang.String" itemvalue="psycopg2-binary" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="E302" />
+          <option value="E305" />
+          <option value="W292" />
+          <option value="E231" />
+          <option value="E265" />
+          <option value="E501" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="false" level="WARNING" enabled_by_default="false">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="keyboards.inline.choice_buttons.IKM" />
+          <option value="blog_app.blog_project.posts.models.Post.objects" />
+          <option value="users.views.self" />
+          <option value="users.views.SignUpPageView" />
+          <option value="books.models.Book.id" />
+          <option value="orders.views.*" />
+          <option value="books.models.Book.objects" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="XmlInvalidId" enabled="false" level="ERROR" enabled_by_default="false" />
+  </profile>
+</component>
